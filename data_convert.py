@@ -5,9 +5,9 @@ import tqdm
 import os
 
 # 1、根据 train 与 dev 构建 events.id (事件类型统计) 与 roles.id(角色类型统计)
-train_path = "data/DUEE/train.json"
-test_path = "data/DUEE/dev.json"
-output_path = "data/DUEE/"
+train_path = "data/train.json"
+test_path = "data/dev.json"
+output_path = "data/"
 
 path_list = [train_path, test_path]
 
